@@ -1,0 +1,53 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .about-section,
+.dark-mode .projects-section,
+.dark-mode .contact-section,
+.dark-mode .timeline-content,
+.dark-mode .education-card,
+.dark-mode .project-card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode .experience-section,
+.dark-mode .education-section {
+    background-color: #121212;
+}
+
+.dark-mode .skill-tag {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.dark-mode .contact-form .form-control {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+.dark-mode .contact-form .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+
+.dark-mode .footer {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .timeline-content h4,
+.dark-mode .project-info p,
+.dark-mode .education-info h4 {
+    color: #b0b0b0;
+}
+
+.dark-mode .toggle-label {
+    background-color: var(--light-color);
+}
+
+.dark-mode .toggle-ball {
+    background-color: var(--dark-color);
+}
