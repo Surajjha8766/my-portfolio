@@ -44,6 +44,10 @@
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">Contact Me</a>
                     <a href="./assets/Suraj_Jha_CV.pdf" download="Suraj_Jha_Resume.pdf" class="btn btn-secondary">Download Resume</a>
+                    <!-- Add this new button -->
+                    <button class="btn btn-highlight" data-bs-toggle="modal" data-bs-target="#hireMeModal">
+                        <i class="fas fa-briefcase me-2"></i> Hire Me
+                    </button>
                 </div>
             </div>
         </div>
@@ -241,7 +245,7 @@
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <h3>Email</h3>
-                                <p>jhasuraj26748@gmail.com</p>
+                                <p>webdev.suraj08@gmail.com</p>
                             </div>
                         </div>
                         
@@ -290,6 +294,42 @@
         </div>
     </footer>
 
+    <div class="modal fade" id="hireMeModal" tabindex="-1" aria-labelledby="hireMeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hireMeModalLabel">Job Preferences</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Status:</span>
+                            <span class="detail-value">Actively looking for Full Stack Developer roles</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Experience:</span>
+                            <span class="detail-value">2 years</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Current CTC:</span>
+                            <span class="detail-value">₹2,40,000 PA</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Expected CTC:</span>
+                            <span class="detail-value">₹3,60,000 PA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="./assets/Suraj_Jha_CV.pdf" download="Suraj_Jha_Resume.pdf" class="btn btn-primary">
+                        <i class="fas fa-download me-2"></i> Download Resume
+                    </a>
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
